@@ -1,0 +1,157 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #eef2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 50%;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 20px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+#loading {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #555;
+}
+
+.hidden {
+  display: none;
+}
+
+#response {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-left: 4px solid #0077cc;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #222;
+}
+
+#history {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+#history li {
+  background: #f0f0f0;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.spinner {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ccc;
+  border-top: 4px solid #0077cc;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.accordion-item {
+  background: #f0f0f0;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.accordion-header {
+  padding: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  background: #e0e0e0;
+}
+
+.accordion-header:hover {
+  background: #d0d0d0;
+}
+
+.accordion-content {
+  padding: 12px;
+  display: none;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  color: #333;
+}
+
+.actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.actions button {
+  padding: 10px 20px;
+  background: #28a745;
+  color: white;
+  border: none;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.actions button:hover {
+  background: #218838;
+}
+
+.copy-btn {
+  float: right;
+  background: #ffc107;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.copy-btn:hover {
+  background: #e0a800;
+}

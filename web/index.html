@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asistente Legal RAG</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Asistente Legal RAG</h1>
+    <textarea id="question" placeholder="Escribe tu pregunta legal aquí..."></textarea>
+    <button id="sendBtn">Consultar</button>
+    <div id="loading" class="hidden">⏳ Consultando...</div>
+    <div id="response"></div>
+    <h2>📜 Historial de preguntas</h2>
+    <div class="actions">
+      <button id="exportBtn">📤 Exportar historial</button>
+    </div>
+    <div id="history" class="accordion"></div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
